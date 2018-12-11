@@ -20,16 +20,16 @@ function upperCaseCheck(password){
 
   for(let i = 0; i < password.length; i++){
 
-    if(password.length = String.fromCharCode(65-90)){
+    if(password.fromCharCode(i) >= String.fromCharCode(65) && (password.FromCharCode(i) <= String.fromCharCode(90))){
       return true;
     }
-
-  }
-  else{
-  
-  
+    else if )password.fromCharCode(i) <= String.fromCharCode(65) || (password.fromCharCode(i) >= String.fromCharCode(90)){
     return false;
 }
+
+
+
+  }
 }
 
 
@@ -40,7 +40,9 @@ function upperCaseCheck(password){
 //returns true or false if there is an lowercase character in the password
 function lowerCaseCheck(password){
 
-  for(let i = 0; i < )
+  for(let i = 0; i < password.fromCharCode; i++){
+
+    if(password.fromCharCode(i) >= String.fromCharCode (97) && (password.fromCharCode))
 
 
 }
