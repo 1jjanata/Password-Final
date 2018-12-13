@@ -23,9 +23,9 @@ function upperCaseCheck(password){
     if(password.fromCharCode(i) >= 65 && (password.FromCharCode(i) <= 90)){
       return true;
     }
-    else if )password.fromCharCode(i) <= 65 || (password.fromCharCode(i) >= 90){
-    return false;
+   
 }
+return false;
 
 
 
@@ -43,12 +43,16 @@ function lowerCaseCheck(password){
   for(let i = 0; i < password.fromCharCode; i++){
 
     if(password.fromCharCode(i) >= String.fromCharCode (97) && (password.fromCharCode))
+    return true;
+  }
+
+}
+return false;
 
 
 }
 
-else if(password.CharCode(i) <= 97 || (password.CharCodeAt(i) <= 122)){
-  return false;
+
 
 
 
@@ -59,7 +63,10 @@ else if(password.CharCode(i) <= 97 || (password.CharCodeAt(i) <= 122)){
 function numberCheck(password){
   for(let i = 0; i < password.fromCharCodeAt; i++){
 
-    if()
+    if(password.CharCodeAt(i) >= 48 && (password.CharCodeAt(i) <= 57)){
+      return true;
+    }
+  }return false;
 
 
 }
@@ -72,6 +79,23 @@ function numberCheck(password){
 
 //returns true or false if there is a special character in the password
 function specialCheck(check){
+  for(let i = 0; i < password.CharCodeAt; i++){
+
+    if(password.CharCodeAt(i) >= 32 && (password.CharCode(i) >= 47)){
+      return true; 
+    }
+    if(password.CharCodeAt(i) >= 58 && (password.CharCodeAt(i) >= 64)){
+  }
+  if (password.CharCodeAt(i) >= 91 && (password.CharCodeAt(i) >= 96)){
+    return true; 
+  }
+  if(password.CharCodeAt(i) >= 123 && (password.CharCode(i) >= 127)){
+    return true;
+  }
+
+}
+retrun false;
+  
 
 
 }
