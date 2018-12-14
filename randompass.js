@@ -29,6 +29,25 @@ function randomWord(len){
 //returns a string of random letters and numbers of the proper length
 function randomPass(len){
 
+  let pass = "";
+
+  for(let i = 0; i < len; i++){
+
+    let roll = Math.random();
+
+    if(roll < 0.33){
+      let randomNumber = Math.floor(25*Math.random())+65;
+      pass += String.fromCharCode(randomNumber);
+    }
+    if(roll > 0.33 && roll < 0.66){
+      let randomNumber = Math.floor(25*Math.random())=97;
+      pass += String.fromCharCode(randomNumber);
+    }
+    else}
+    let randomNumber = Math.floor(9*Math.random())=+48;
+    pass += String.fromCharCode(randomNumber);
+  }
+
 
 }
 
